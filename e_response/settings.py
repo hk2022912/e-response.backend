@@ -133,13 +133,18 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_CREDENTIALS = True
 
 # ✅ CSRF settings
-CSRF_TRUSTED_ORIGINS = ['http://192.168.189.15']
+CSRF_TRUSTED_ORIGINS = [
+    'https://e-response-backend-dev.onrender.com',
+    'http://192.168.189.15'
+    ]
+    
+
 
 # 🔥 (No need for CSRF_EXEMPT_URLS anymore because middleware handles it)
 
 # ✅ Allowed hosts for Render + Local dev
 ALLOWED_HOSTS = [
-    'e-response-backend-dev.onrender.com',
+    'https://e-response-backend-dev.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
