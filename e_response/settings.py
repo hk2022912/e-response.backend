@@ -126,7 +126,7 @@ CORS_ALLOW_CREDENTIALS = True  # Allow session cookie to be sent
 CORS_ALLOWED_ORIGINS = [
     'http://192.168.189.15:8000',  # Local IP
     'http://localhost:19000',    # Expo local server
-    'https://hk2022912.github.io/e-response.project.dev',  # Frontend GitHub Pages
+    'https://hk2022912.github.io/e-response.project.dev/',  # Frontend GitHub Pages
     'http://localhost:3000',        # Local frontend (React, etc.)
 ]
 
@@ -139,13 +139,13 @@ CSRF_TRUSTED_ORIGINS = ['http://192.168.189.15']
 
 # ✅ Allowed hosts for Render + Local dev
 ALLOWED_HOSTS = [
-    'e-response-backend.dev.onrender.com',
+    'https://e-response-backend-dev.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
 
 # ✅ CSRF settings for trusted frontend
 CSRF_TRUSTED_ORIGINS = [
-    'https://hk2022912.github.io/e-response.project.dev',
-    'https://e-response-backend.dev.onrender.com',
+    'https://hk2022912.github.io/e-response.project.dev/',
+    'https://e-response-backend-dev.onrender.com',
 ]
