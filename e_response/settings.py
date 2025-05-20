@@ -139,7 +139,7 @@ CSRF_TRUSTED_ORIGINS = ['http://192.168.189.15']
 
 # ✅ Allowed hosts for Render + Local dev
 ALLOWED_HOSTS = [
-    'https://e-response-backend-dev.onrender.com',
+    'e-response-backend-dev.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
